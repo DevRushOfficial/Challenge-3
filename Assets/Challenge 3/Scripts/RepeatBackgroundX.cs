@@ -5,12 +5,11 @@ using UnityEngine;
 public class RepeatBackgroundX : MonoBehaviour
 {
     private Vector3 startPos;
-    private float repeatWidth;
+    private float repeatWidth = 56.4f;
 
     private void Start()
     {
-        startPos = transform.position; // Establish the default starting position 
-        repeatWidth = GetComponent<BoxCollider>().size.y / 2; // Set repeat width to half of the background
+        startPos = transform.position; // Establish the default starting position
     }
 
     private void Update()
