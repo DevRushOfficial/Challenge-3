@@ -892,7 +892,7 @@ GameObject:
   - component: {fileID: 1292757559}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1046,6 +1046,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOver: 0
   floatForce: 10
+  playerRb: {fileID: 0}
   explosionParticle: {fileID: 1171260740}
   fireworksParticle: {fileID: 66121944}
   moneySound: {fileID: 8300000, guid: af9f934eb4288464eb120a5857921cc3, type: 3}
@@ -1400,6 +1401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9afe90e3c85bab41aeb0eaa5d3633da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerControllerX: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
