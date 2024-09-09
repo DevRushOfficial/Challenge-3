@@ -6,13 +6,11 @@ public class MoveLeftX : MonoBehaviour
     private PlayerControllerX playerControllerScript;
     private float leftBound = -11.5f;
 
-    // Start is called before the first frame update
     void Start()
     {
         playerControllerScript = GameObject.Find("Player").GetComponent<PlayerControllerX>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         // If game is not over, move to the left
@@ -26,6 +24,5 @@ public class MoveLeftX : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
     }
 }

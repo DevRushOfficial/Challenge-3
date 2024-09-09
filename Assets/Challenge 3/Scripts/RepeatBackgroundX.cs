@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class RepeatBackgroundX : MonoBehaviour
 {
@@ -20,8 +18,4 @@ public class RepeatBackgroundX : MonoBehaviour
             transform.position = startPos;
         }
     }
-
- 
 }
-
-

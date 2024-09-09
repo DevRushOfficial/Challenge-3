@@ -8,7 +8,7 @@ public class SpawnManagerX : MonoBehaviour
 
     private PlayerControllerX playerControllerScript;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         InvokeRepeating("SpawnObjects", spawnDelay, spawnInterval);
@@ -27,6 +27,5 @@ public class SpawnManagerX : MonoBehaviour
         {
             Instantiate(objectPrefabs[index], spawnLocation, objectPrefabs[index].transform.rotation);
         }
-
     }
 }
